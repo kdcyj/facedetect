@@ -3,6 +3,7 @@ import numpy as np
 
 scaler = 0.3
 
+# git upload
 # initialize face detector and shape predictor
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('../models/shape_predictor_68_face_landmarks.dat')
